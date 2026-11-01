@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "custom_perf_tuner",
+  "version": "${version}",
+  "name": "Custom Performance Tuner",
+  "description": "Entity / block entity / particle culling, adaptive FPS governor, dan preset optimisasi. Client-side, kompatibel dengan Sodium dan Iris.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.perftuner.PerfTunerClient"]
+  },
+  "mixins": ["custom_perf_tuner.mixins.json"],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "key.custom_perf_tuner.open": "Open Performance Settings",
+  "key.category.custom_perf_tuner.main": "Custom Performance Tuner",
+
+  "custom_perf_tuner.on": "ON",
+  "custom_perf_tuner.off": "Off",
+
+  "custom_perf_tuner.screen.title": "Custom Performance Tuner",
+  "custom_perf_tuner.screen.preset": "Preset",
+  "custom_perf_tuner.screen.worker_priority": "Worker priority",
+  "custom_perf_tuner.screen.done": "Done",
+  "custom_perf_tuner.screen.status": "FPS: %s   Governor level: %s/3",
+
+  "custom_perf_tuner.preset.balanced": "Balanced",
+  "custom_perf_tuner.preset.ultra_fps": "Ultra FPS",
+  "custom_perf_tuner.preset.quality": "Quality",
+  "custom_perf_tuner.preset.custom": "Custom",
+
+  "custom_perf_tuner.priority.normal": "Normal",
+  "custom_perf_tuner.priority.low": "Low",
+  "custom_perf_tuner.priority.lowest": "Lowest",
+
+  "custom_perf_tuner.opt.entity_culling": "Entity culling",
+  "custom_perf_tuner.opt.entity_distance": "Entity distance",
+  "custom_perf_tuner.opt.occlusion": "Occlusion culling",
+  "custom_perf_tuner.opt.occlusion_range": "Occlusion range",
+  "custom_perf_tuner.opt.block_entity_culling": "Block entity culling",
+  "custom_perf_tuner.opt.block_entity_distance": "Block entity dist.",
+  "custom_perf_tuner.opt.particle_limit": "Particle limit",
+  "custom_perf_tuner.opt.particle_budget": "Particles / tick",
+  "custom_perf_tuner.opt.governor": "Adaptive governor",
+  "custom_perf_tuner.opt.target_fps": "Target FPS",
+  "custom_perf_tuner.opt.apply_vanilla": "Set vanilla options",
+
+  "custom_perf_tuner.cmd.preset_set": "Preset applied: %s"
+}
